@@ -13,7 +13,7 @@ You need a flake which exposes both a `diskoConfiguration` and a `nixosConfigura
 Run the following command:
 
 ```bash
-nix --experimental-features 'nix-command flakes' run github:kjabin/bootstrap.nix -- -f FLAKE_URI
+nix --experimental-features 'nix-command flakes' run github:akeril/bootstrap.nix -- -f FLAKE_URI
 ```
 
 Replace `FLAKE_URI` with the URI of your flake.
